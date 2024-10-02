@@ -2,15 +2,19 @@
 # Given an integer number n, return the difference between the product of its digits and the sum of its digits.
 
 def subtractProductAndSum(n: int) -> int:
-    string_num = str(n) 
     product = 1
     sum_digits = 0
 
-    for nums in string_num:
-        int(nums)
-        product *= nums
-        sum_digits += nums
+    while n > 0:
+        product = (n % 10) * product
+        sum_digits = (n % 10) + sum_digits
+        n //= 10
+    
     return product - sum_digits
+        
+        
+    
+    
 
-n = 234
+n = 4421
 print(subtractProductAndSum(n))

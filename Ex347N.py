@@ -13,6 +13,7 @@ def topKFrequent(nums: List[int], k: int) -> List[int]:
             hashmap[numbers] = 1
 
     return list(hashmap.keys())
+    print(teste)
 
 nums = [1,1,1,2,2,3]
 k = 2

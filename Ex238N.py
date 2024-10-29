@@ -8,7 +8,7 @@ from typing import List
 
 def productExpectSelf(nums: List[int]) -> List[int]:
     product = 1
-    teste = 0
+    teste = 1
 
 
     for i in range(len(nums)):

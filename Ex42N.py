@@ -4,7 +4,12 @@
 from typing import List
 
 def trap(height: List[int]) -> int:
-    pass
+    teste = 6
+
+    for i in range(len(height)):
+        teste += i
+
+    return i
 
 
 

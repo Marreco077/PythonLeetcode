@@ -13,5 +13,5 @@ def trap(height: List[int]) -> int:
 
 
 
-height = [4,2,0,3,2,5]
+height = [4,2,2,5]
 print(trap(height))

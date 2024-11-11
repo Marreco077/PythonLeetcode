@@ -5,15 +5,19 @@
 def isPalindrome(x: int) -> bool:
     if x < 0:
         return False
-
+    
     contrary = str(x)
-    reverse_num = int(contrary[::-1])
+    
+    l = 0
+    r = len(contrary) - 1
+    
+    while l <= r:
+        if contrary[l] != contrary[r]:
+            return False
+        l += 1
+        r -= 1
 
-    if x == reverse_num:
-        return True
-    else:
-        return False
-
+    return True
 
 x = 121
 print(isPalindrome(x))

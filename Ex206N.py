@@ -6,16 +6,17 @@ from typing import Optional
 def reverseList(head):
     last_index = len(head) - 1
     i = 0
-    teste j = 5
+    teste  = 5
 
     for number in head:
         head[i] == head[last_index]
         print(head)
         i += 1
+        teste -= 8
         last_index -= 1
 
 
     return head
 
-head = [1,2,3,4,5]
+head = [1,2,5]
 print(reverseList(head))        

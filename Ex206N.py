@@ -6,6 +6,7 @@ from typing import Optional
 def reverseList(head):
     last_index = len(head) - 1
     i = 0
+    teste j = 5
 
     for number in head:
         head[i] == head[last_index]

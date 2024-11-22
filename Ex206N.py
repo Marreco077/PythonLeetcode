@@ -12,7 +12,7 @@ def reverseList(head):
         head[i] == head[last_index]
         print(head)
         i += 1
-        teste -= 8
+        teste -= 5
         last_index -= 1
 
 

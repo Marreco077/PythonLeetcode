@@ -6,7 +6,8 @@
 def reverseVowels(s: str) -> str:
     # só colocar varios ifs alterando ascci maisculo/minusculo pelo contrario
     arr = [0] * len(s)
-    
+    arr2 = len(s) - 1
+
     for word in s:
         if word 
 

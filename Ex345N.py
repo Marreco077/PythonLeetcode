@@ -10,7 +10,7 @@ def reverseVowels(s: str) -> str:
     ...
     for word in s:
         if word < 0:
-            pass
+            
 
 
 
